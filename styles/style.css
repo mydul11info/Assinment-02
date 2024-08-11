@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-.open-sans-normal {
+
+.open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <600>;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -18,14 +19,32 @@
 .display-flex{
     display: flex;
 }
+.text-color{
+    color: white;
+}
+.primary{
+    background: rgba(230, 83, 60, 1);
+}
+
+
+
+
+body{
+    color: white;
+    background-color: black;
+}
 header{
     max-width: 80%;
     margin: 0 auto;
-}
 
+
+}
 /* navbar stayls */
 .navbar{
     justify-content: space-between;
+}
+.navbar>h2{
+    color: rgba(230, 83, 60, 1);;
 }
 .navbar li{
     list-style: none;
@@ -33,8 +52,54 @@ header{
 }
 .navbar a{
     text-decoration: none;
+    color: white;
+}
+.navbar .first-child{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+    border-radius: 48px;
 }
 
-.hero-section{
-    /* display: flex; */
+/* banner section */
+.banner{
+    justify-content: space-between;
+}
+.banner-title{
+   font-size: 4.5rem;
+}
+.banner-title span{
+     font-weight: 300;
+}
+.banner-button{
+    padding: 1rem 2.5rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    color: white;
+}
+ #btn-2{
+    background:black;
+
+}
+.img-part-1{
+    position: absolute;
+    top: 14.5rem;
+    right: 8.5rem;
+    border-radius: 15px;
+}
+.img-part-1>h3{
+    font-weight: 900;
+    font-size: 40px;
+    margin:0;
+    margin-bottom:-20px;
+}
+.img-part-2{
+    position: absolute;
+    bottom: 8rem;
+    right:26.5rem;
+    border: none;
+    border-radius: 12px;
+
+}
+.img-part-2>h3{
+    margin-bottom:-16px;
 }
