@@ -103,3 +103,19 @@ header{
 .img-part-2>h3{
     margin-bottom:-16px;
 }
+
+/* change-habbit styles here */
+.change-habbit{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.change-habbit-title{
+    text-align: center;
+}
+.change-habbit-card{
+    text-align: center;
+}
+.change-habbit-card img{
+    border-radius: 50%;
+}
