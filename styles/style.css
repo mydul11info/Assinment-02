@@ -28,6 +28,13 @@
 
 
 
+.heading-text{
+    font-size: 3rem;
+}
+.sub-title{
+    font-size: 1rem;
+    color: gray;
+}
 
 body{
     color: white;
@@ -124,7 +131,7 @@ header{
 
 
 
-
+/* run-extra code stard */
 .run-extra{
     width: 72%;
     margin: 0 auto;
@@ -133,8 +140,9 @@ header{
     padding: 2rem;
     border-radius: 1rem;
 }
-.run-extra-text{
-    padding-bottom: 2rem;
+.run-extra-text >h3{
+    /* padding-bottom: 2rem; */
+    margin: 8px 0;
 }
 .run-extra-img{
     width: 250px;
@@ -143,6 +151,7 @@ header{
 .run-extra-img>img{
     width: 100%;
     border-radius: 1rem;
+    margin-top: 20px;
 }
 .run-extra button{
     padding: 1rem 3rem;
@@ -165,4 +174,38 @@ header{
 } */
 .chart-and-calculator >table, th, td{
     border: 1px;
+}
+
+
+
+/* img-container code stard here */
+.img-container-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.img-container{
+    width: 327px;
+    height: 272px;
+}
+.img-container>img{
+    width: 100%;
+}
+
+
+
+/* footer section code here */
+footer{
+    width:80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 60px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 500px repeat(2, 1fr);
+    justify-content: space-between;
+}
+.big-fitness{
+    font-size: 40px;
+    color:  rgba(230, 83, 60, 1);
+    font-style: italic;
+    margin: 1rem 0;
 }
