@@ -150,3 +150,19 @@ header{
     border-radius: 2rem;
     color: white;
 }
+
+
+.bmi-calculator{
+    width: 671px;
+    margin: 60px auto;
+    justify-content: center;  
+}
+
+
+
+/* .chart-and-calculator{
+    background: rgba(34, 34, 34, 1);
+} */
+.chart-and-calculator >table, th, td{
+    border: 1px;
+}
