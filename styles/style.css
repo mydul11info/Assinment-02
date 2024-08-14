@@ -37,7 +37,10 @@
 .sub-title{
     font-size: 1rem;
     color: gray;
-
+}
+.sub-title-img{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.703);
 }
 
 body{
@@ -132,6 +135,7 @@ header{
 }
 .change-habbit-card{
     text-align: center;
+    justify-content: space-between;
 }
 .change-habbit-card img{
     border-radius: 50%;
@@ -265,12 +269,35 @@ header{
     width: 100%;
     position: relative;
     bottom: -60px;
-    left: 0px;
+    left: -3px;
+    /* left: 0px; */
     border-radius: 15px;
 }
 .img-intro{
     position: absolute;
 }
+
+
+
+
+/* unique section code */
+.unique-parent{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.unique-parent input{
+    width: 300px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.unique-h1{
+    margin: 70px 0 20px 0;
+    color:  rgb(235, 92, 69);
+    /* color:  rgba(230, 83, 60, 1); */
+}
+
 
 
 /* footer section code here */
@@ -286,6 +313,7 @@ footer{
     grid-template-columns: 500px repeat(2, 1fr);
     justify-content: space-between;
     padding: 70px;
+    margin-top: 70px;
 }
 .big-fitness{
     font-size: 40px;
@@ -298,4 +326,18 @@ footer{
 }
 .footer-part-2 p{
     margin: 8px 0;
+}
+
+
+
+.copyright{
+    width: 80%;
+    margin: 0 auto;
+}
+.copyright p{
+    margin: 20px 0;
+    text-align: center;
+}
+.discrip-cpy{
+    padding-bottom: 20px;
 }
