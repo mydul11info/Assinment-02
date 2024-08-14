@@ -73,7 +73,9 @@ header{
     padding: 8px 20px;
     border-radius: 48px;
 }
-
+.navbar .nav-img{
+    display: none;
+}
 /* banner section */
 .banner{
     justify-content: space-between;
@@ -340,4 +342,35 @@ footer{
 }
 .discrip-cpy{
     padding-bottom: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .navbar, .navbar ul, 
+    .banner, .change-habbit-card,
+    .run-extra, .chart-and-calculator{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+    .run-extra-text button{
+        padding: 1rem 4rem;
+    }
+    .run-extra .run-extra-img{
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .bmi-calculator{
+        width: 100%;
+    }
+    .chart-and-calculator h2,
+    .chart-and-calculator p{
+        padding: 12px 0;
+    }
+    
 }
