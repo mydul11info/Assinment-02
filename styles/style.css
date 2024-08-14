@@ -37,6 +37,7 @@
 .sub-title{
     font-size: 1rem;
     color: gray;
+
 }
 
 body{
@@ -92,7 +93,8 @@ header{
 }
 .img-part-1{
     position: absolute;
-    top: 14.5rem;
+    top: 12.5rem;
+    /* top: 14.5rem; */
     right: 8.5rem;
     border-radius: 15px;
 }
@@ -100,7 +102,8 @@ header{
     font-weight: 900;
     font-size: 40px;
     margin:0;
-    margin-bottom:-20px;
+    margin-bottom:-10px;
+    padding: 5px 10px;
 }
 .img-part-2{
     position: absolute;
@@ -111,7 +114,10 @@ header{
 
 }
 .img-part-2>h3{
-    margin-bottom:-16px;
+    margin-bottom:10px;
+}
+.images-btn p{
+    padding: 10px 20px;
 }
 
 /* change-habbit styles here */
@@ -119,6 +125,7 @@ header{
     max-width: 80%;
     margin: 0 auto;
     margin-top: 4rem;
+    margin-bottom: 50px;
 }
 .change-habbit-title{
     text-align: center;
@@ -168,7 +175,8 @@ header{
 .bmi-calculator{
     width: 671px;
     margin: 60px auto;
-    justify-content: center;  
+    justify-content: center;
+
 }
 
 
@@ -227,13 +235,42 @@ header{
 
 
 
-
-/* img-container code stard here */
-
-    
-    
-
-
+/* our team code here */
+.our-team-hearding{
+    text-align: center;
+    margin-top: 70px;
+}
+.meet-our-team{
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 15px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.img-container-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 15px; */
+}
+.img-container{
+    /* width: 327px; */
+    width: 370px;
+    /* width: 360px; */
+    /* width: 340px; */
+    height: 272px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.team-img{
+    width: 100%;
+    position: relative;
+    bottom: -60px;
+    left: 0px;
+    border-radius: 15px;
+}
+.img-intro{
+    position: absolute;
+}
 
 
 /* footer section code here */
