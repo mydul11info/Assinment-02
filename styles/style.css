@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
@@ -161,6 +164,7 @@ header{
 }
 
 
+/* bmi-calculator code here */
 .bmi-calculator{
     width: 671px;
     margin: 60px auto;
@@ -168,44 +172,93 @@ header{
 }
 
 
-
-/* .chart-and-calculator{
+.chart-and-calculator-parent{
     background: rgba(34, 34, 34, 1);
-} */
-.chart-and-calculator >table, th, td{
-    border: 1px;
+    padding: 70px 0;
+
 }
+.chart-and-calculator{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.chart-and-calculator table{
+    margin-top: 30px;
+}
+.chart-and-calculator table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 330px;
+    height: 3.125rem;
+    padding-left: 1rem;
+}
+.chart-and-calculator td{
+    color:  rgba(255, 255, 255, 0.651);
+}
+.chart-and-calculator-part-2{
+    max-width: 600px;
+}
+.chart-and-calculator-part-2>h2, .part-1{
+    font-size: 35px;
+    margin-bottom: 6px;
+}
+.chart-and-calculator-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.chart-and-calculator-input>input{
+    padding: 16px 0;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color:white ;
+    border: none;
+}
+.Calculator-button{
+    padding:16px 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
 
 
 
 /* img-container code stard here */
-.img-container-parent{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.img-container{
-    width: 327px;
-    height: 272px;
-}
-.img-container>img{
-    width: 100%;
-}
+
+    
+    
+
 
 
 
 /* footer section code here */
 footer{
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.footer-parent{
     width:80%;
     margin: 0 auto;
     display: grid;
     gap: 60px;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 500px repeat(2, 1fr);
     justify-content: space-between;
+    padding: 70px;
 }
 .big-fitness{
     font-size: 40px;
     color:  rgba(230, 83, 60, 1);
     font-style: italic;
     margin: 1rem 0;
+}
+.footer-part-2{
+    margin-top: 30px;
+}
+.footer-part-2 p{
+    margin: 8px 0;
 }
