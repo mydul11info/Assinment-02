@@ -182,7 +182,6 @@ header{
     width: 580px;
     margin: 60px auto;
     justify-content: center;
-    border: 1px solid violet;
     padding-right: -10px;
 }
 .bmi-calculator p{
