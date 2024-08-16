@@ -358,7 +358,7 @@ footer{
             .navbar ul{
                 display: none;
             }
-            .banner-title, .banner-distanection{
+            .navbar, .banner-title, .banner-distanection{
                 padding: 0 15px;
             }
             #btn-1{
