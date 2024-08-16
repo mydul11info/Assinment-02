@@ -353,83 +353,35 @@ footer{
 
 
 
-
-
-/* @media screen and (max-width: 576px){
-    .navbar, .navbar ul, 
-    .banner, .change-habbit-card,
-    .run-extra, .chart-and-calculator{
-        flex-direction: column;
-    }
-
-    .navbar ul{
-        display: none;
-    }
-    .img-part-1{
-        position: absolute;
-        top: 50.5rem;
-        right: 4.5rem;
-        border-radius: 15px;
-    }
-    .img-part-2{
-        position: absolute;
-        bottom: -25rem;
-        right:19.5rem;
-        border: none;
-        border-radius: 12px;}
-    .run-extra-textbutton{
-        padding: 1rem 4rem;
-    }
-    .run-extra .run-extra-img{
-        padding-bottom: 50px;
-        margin: 0 auto;
-    }
-    .bmi-calculator{
-        width: 100%;   
-    }
-    .bmi-calculator{
-        width: 475px;
-        margin: 60px auto;
-        justify-content: center;
-    }
-    .chart-and-calculator h2,
-    .chart-and-calculator p{
-        padding: 12px 0;
-    }
-    .img-container-parent,
-    .footer-parent{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    
-    }
-    .chart-and-calculator-input{
-        padding-right: -20px;
-    }
-    
-    .footer-parent{
-        padding-left: 50px;
-        padding-right: 45px;
-    }
-    .chart-and-calculator-input{
-        grid-template-columns: repeat(2, 190px);
-
-    }
-    .bmi-calculator{
-        padding-right: -100px;
-    } */
-
-
+/* responsive for moblile code start  */
     @media screen and (min-width:300px) and (max-width:576px) {
             .change-habbit{
                 padding: 0 10px;
                 margin: 0 auto;
             }
-            .change-habbit-card,
-            .run-extra{
+            .navbar, .banner, .change-habbit-card,
+            .run-extra, .chart-and-calculator{
                 flex-direction: column;
                 max-width: 100%;
             }
+            .navbar ul{
+                display: none;
+            }
+            .images-btn-img img{
+                position: relative;
+            }
+            .img-part-1{
+                position: absolute;
+                top: 46.5rem;
+                right: 1.5rem;
+                border-radius: 15px;
+            }
+            .img-part-2{
+                position: absolute;
+                bottom: -4.5rem;
+                right:17.5rem;
+                border: none;
+                border-radius: 12px;}
             .run-extra{
                 padding-bottom: 80px;
             }
@@ -438,22 +390,52 @@ footer{
             }
             .bmi-calculator p{
                 width: 260px;
-                /* padding: 0 30px; */
             }
             .bmi-calculator h3{
                 padding-right: -100px;
             }
              .bmi-calculator{
-                /* margin: 0 60px; */
                 justify-content: start;
                 max-width: 100%;
                 width: 360px;
              }
-            .change-habbit-title,
-            .change-habbit-card,
-            .run-extra, .bmi-calculator
-            {
-               border: 1px solid skyblue; 
+            .chart-and-calculator-input{
+                padding-right: -20px;
+            }
+            .chart-and-calculator-input{
+                grid-template-columns: repeat(2, 150px);
+            }
+            .img-container-parent{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .img-container{
+                width: 280px;
+                display: block;
+                margin: 0 auto;
+                margin-left: 28px;
+            }
+            .img-container-parent img{
+                width: 100%;
+            }
+            .unique-h1{
+                font-size: 2.5rem;
+            }
+            .unique-input input{
+                width: 250px;
+            }
+            footer{
+                max-width: 100%;
+            }
+            .footer-parent{
+                grid-template-columns: repeat(1, 1fr);
+                padding: 37px;
             }
         }
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .images-btn{
+        display: none;
+    }
+}
        
