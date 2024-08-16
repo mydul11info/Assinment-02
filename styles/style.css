@@ -50,7 +50,6 @@ body{
 }
 header{
     max-width: 73.25rem;
-    /* max-width: 80%; */
     margin:0 auto;
 }
 /* navbar stayls */
@@ -103,7 +102,6 @@ header{
 .img-part-1{
     position: absolute;
     top: 12.5rem;
-    /* top: 14.5rem; */
     right: 8.5rem;
     border-radius: 15px;
 }
@@ -129,10 +127,8 @@ header{
     padding: 10px 20px;
 }
 
-/* change-habbit styles here */
 .change-habbit{
     max-width: 73.25rem;
-    /* max-width: 80%; */
     margin: 0 auto;
     margin-top: 4rem;
     margin-bottom: 50px;
@@ -162,7 +158,6 @@ header{
     border-radius: 1rem;
 }
 .run-extra-text >h3{
-    /* padding-bottom: 2rem; */
     margin: 8px 0;
 }
 .run-extra-img{
@@ -185,7 +180,6 @@ header{
 /* bmi-calculator code here */
 .bmi-calculator{
     width: 580px;
-    /* width: 671px; */
     margin: 60px auto;
     justify-content: center;
     border: 1px solid violet;
@@ -194,9 +188,6 @@ header{
 .bmi-calculator p{
     width: 580px;
 }
-/* .bmi-calculator h3{
-    margin-right: -10px;
-} */
 
 
 .chart-and-calculator-parent{
@@ -367,18 +358,24 @@ footer{
             .navbar ul{
                 display: none;
             }
+            .banner-title, .banner-distanection{
+                padding: 0 15px;
+            }
+            #btn-1{
+                margin-left: 10px;
+            }
             .images-btn-img img{
                 position: relative;
             }
             .img-part-1{
                 position: absolute;
-                top: 46.5rem;
+                top: 51.5rem;
                 right: 1.5rem;
                 border-radius: 15px;
             }
             .img-part-2{
                 position: absolute;
-                bottom: -4.5rem;
+                bottom: -12.5rem;
                 right:17.5rem;
                 border: none;
                 border-radius: 12px;}
